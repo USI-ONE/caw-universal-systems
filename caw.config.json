@@ -1,0 +1,21 @@
+{
+  "tenant": {
+    "slug": "universal-systems",
+    "display_name": "Universal Systems Inc.",
+    "interim_hostname": "caw-universal-systems.vercel.app",
+    "custom_hostname": null
+  },
+  "frameworks": {
+    "active": ["nist-csf-2.0@2.0"]
+  },
+  "branding": {
+    "logo_path": "assets/logo.svg",
+    "logo_alt": "Universal Systems Inc. logo (placeholder)"
+  },
+  "contacts": {
+    "editor": null,
+    "viewer_distribution_group": null,
+    "viewer_email_domain": null
+  },
+  "notes": "Universal Systems Inc. is the operator of this platform — NOT a Bestige PortCo. USI runs its own NIST CSF 2.0 attainment program here. USI does not appear in any Bestige rollup unless USI explicitly shares a snapshot with Bestige. Logo is a placeholder; replace assets/logo.svg with the real brand asset."
+}
