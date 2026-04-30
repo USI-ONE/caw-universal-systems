@@ -1,13 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Universal Systems Inc. placeholder logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Universal Systems">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1B2540"/>
-      <stop offset="100%" stop-color="#0F1423"/>
+    <linearGradient id="usi-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#458C5E"/>
+      <stop offset="100%" stop-color="#3B697A"/>
     </linearGradient>
   </defs>
-  <rect width="120" height="120" rx="16" fill="url(#g)"/>
-  <rect x="2" y="2" width="116" height="116" rx="14" fill="none" stroke="#C9A961" stroke-width="1.5"/>
-  <text x="60" y="60" text-anchor="middle" dominant-baseline="central"
-        font-family="'Oswald', 'Arial Black', sans-serif"
-        font-size="38" font-weight="600" fill="#E8D29B" letter-spacing="0.06em">USI</text>
+  <!-- Outer disc with brand gradient (Juniper -> Nebula) -->
+  <circle cx="60" cy="60" r="56" fill="url(#usi-grad)"/>
+  <!-- Yin-yang S cutout: traces the right outer arc, curves in via two half-circles back to top -->
+  <path d="M 60 4
+           A 56 56 0 0 1 60 116
+           A 28 28 0 0 1 60 60
+           A 28 28 0 0 0 60 4 Z"
+        fill="#FFFFFF"/>
 </svg>
