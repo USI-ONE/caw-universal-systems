@@ -10,12 +10,22 @@
   },
   "branding": {
     "logo_path": "assets/logo.svg",
-    "logo_alt": "Universal Systems Inc. logo (placeholder)"
+    "logo_alt": "Universal Systems",
+    "tagline": "Proudly serving for 37 years",
+    "theme": {
+      "primary":         "#458C5E",
+      "primary_light":   "#7FB995",
+      "primary_bright":  "#52A06D",
+      "primary_pale":    "rgba(69,140,94,0.14)",
+      "primary_border":  "rgba(69,140,94,0.42)",
+      "secondary":       "#3B697A",
+      "accent":          "#A68A56"
+    }
   },
   "contacts": {
     "editor": null,
     "viewer_distribution_group": null,
-    "viewer_email_domain": null
+    "viewer_email_domain": "usicomputer.com"
   },
-  "notes": "Universal Systems Inc. is the operator of this platform — NOT a Bestige PortCo. USI runs its own NIST CSF 2.0 attainment program here. USI does not appear in any Bestige rollup unless USI explicitly shares a snapshot with Bestige. Logo is a placeholder; replace assets/logo.svg with the real brand asset."
+  "notes": "Universal Systems Inc. — operator of the Cyber Attainment Worksheet platform. Brand colors per the 2026 USI brand guidelines: Juniper #458C5E (primary), Nebula #3B697A (secondary), Desert #A68A56 (warm accent), Void #3C3C3C (text), Salt (light gray). Logo is the yin-yang S mark in the Juniper -> Nebula gradient. Tagline 'Proudly serving for 37 years' replaces the platform default."
 }
