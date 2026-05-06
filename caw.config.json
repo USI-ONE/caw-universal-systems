@@ -14,8 +14,8 @@
     "tagline": "Proudly serving for 37 years",
     "theme": {
       "primary":         "#458C5E",
-      "primary_light":   "#7FB995",
-      "primary_bright":  "#52A06D",
+      "primary_light":   "#2D5C3E",
+      "primary_bright":  "#3D7B53",
       "primary_pale":    "rgba(69,140,94,0.14)",
       "primary_border":  "rgba(69,140,94,0.42)",
       "secondary":       "#3B697A",
